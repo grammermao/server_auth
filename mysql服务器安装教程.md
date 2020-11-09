@@ -55,5 +55,13 @@
 
 10. 执行数据库导入 `source /tmp/xxx.sql`
 
-11. 
+---
+
+**注意：如果mysql版本为8.0，则必须改用新的加密方式，否则访问不通**
+
+```
+ ALTER USER 'wlxx'@'%' IDENTIFIED WITH mysql_native_password BY 'Aaqwer@1234';
+```
+
+
 
