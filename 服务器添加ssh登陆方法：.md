@@ -43,3 +43,7 @@
 **如果/root下面没有.ssh/authorized_keys文件，则再root下面执行命令`ssh -p33888 localhost`**
 
 ## Q&A
+
+- firewall-cmd --zone=public --list-ports
+- firewall-cmd --zone=public --add-port=xxx/tct
+- systemctl restart firewalld
