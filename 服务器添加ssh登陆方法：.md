@@ -40,6 +40,6 @@
   IdentityFile    ~/.ssh/id_rsa    #第一个步骤生成的公钥文件对应的私钥文件
   ```
 
-
+**如果/root下面没有.ssh/authorized_keys文件，则再root下面执行命令`ssh -p33888 localhost`**
 
 ## Q&A
